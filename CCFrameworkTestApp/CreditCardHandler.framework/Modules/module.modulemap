@@ -1,0 +1,10 @@
+framework module CreditCardHandler {
+  umbrella header "CreditCardHandler.h"
+
+  export *
+  module * { export * }
+}
+
+module CreditCardHandler.Swift {
+    header "CreditCardHandler-Swift.h"
+}
